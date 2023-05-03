@@ -1,0 +1,26 @@
+{
+  "name": "solidity-ts",
+  "version": "1.0.0",
+  "main": "dist/main.ts",
+  "repository": "https://github.com/HEEPOKE/solidity-ts.git",
+  "author": "HEEPOKE <Damon1fx@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "truffle test",
+    "build": "tsc",
+    "compile": "truffle compile",
+    "migrate": "truffle migrate"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.3",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^18.16.3",
+    "@types/web3": "^1.2.2",
+    "ethereumjs-util": "^7.1.5",
+    "ganache-cli": "^6.12.2",
+    "solc": "^0.8.19",
+    "truffle": "^5.8.4",
+    "typescript": "^5.0.4",
+    "web3": "^1.9.0"
+  }
+}
